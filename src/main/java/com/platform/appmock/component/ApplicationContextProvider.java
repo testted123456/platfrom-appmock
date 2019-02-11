@@ -1,17 +1,13 @@
 package com.platform.appmock.component;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Map;
-import java.util.function.Function;
-import java.util.function.Predicate;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
-
-import com.platform.appmock.entity.AppMockApi;
 
 @Component
 public class ApplicationContextProvider implements ApplicationContextAware {

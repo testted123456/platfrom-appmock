@@ -1,7 +1,7 @@
 eureka:
  client:
   serviceUrl:
-   defaultZone: http://192.168.1.121:9400/eureka/
+   defaultZone: http://192.168.1.123:19400/eureka/
  instance: 
   hostname: ${spring.cloud.client.ipAddress}
 spring:
@@ -16,4 +16,4 @@ spring:
        enabled: true
        serviceId: PLATFORM-CONFIG-SERVER  
 server:
-  port: 9800
+  port: 19800
